@@ -58,7 +58,7 @@ body {
 }
 .testimonials {
 	margin: 10px 5%;
-	padding: 10px 20px;
+	padding: 30px 40px;
 	max-width: 375px;
 	background-color: aquamarine;
 	border-radius: 10px;
@@ -76,24 +76,31 @@ body {
   }
   
   .left {
-	  border: blue solid 1px;
 	  display: flex;
-	  justify-content: center;
+	  justify-content: start;
 	  align-items: center;
 
   }
   .right {
-	border: yellow solid 1px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	/* align-items: center; */
+	align-items: flex-start;
 	height: 50px;
 	
 }
 
+.student {
+	font-size: 1.2em;
+	margin-bottom: 5px;
+
+}
+
 .violetBackground {
 	background-color: hsl(263, 55%, 52%);
+}
+.darkBackground {
+	background-color: hsl(219, 29%, 14%);
 }
 .studentLight {
 	color: hsl(0, 0%, 81%);
@@ -104,12 +111,37 @@ body {
 	opacity: 0.5;
 }
 
+.mainQoute {
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-weight: 600;
+	margin: 25px 0;
+}
+
 .lightQoute {
+	
 	color: hsl(0, 0%, 100%);
+	
+}
+.secondaryQoute {
+	font-weight: 500;
+	line-height: 1.5em;
+	opacity: 0.7;
 }
 .lightTestimony {
-	opacity: 0.7;
+	
 	color: hsl(0, 0%, 100%);	
+}
+
+.left > img {
+
+border-radius: 50%;
+height: auto;
+max-width: 60%;
+}
+
+.violetImg {
+	border:3px solid hsla(263, 55%, 70%, 1);	
 }
 
 .attribution { font-size: 11px; text-align: center; }
